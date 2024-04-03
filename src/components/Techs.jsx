@@ -5,7 +5,7 @@ function Techs() {
     <div className='flex justify-center content-center'>
         <div className='grid grid-rows-3 lg:border-4 lg:border-amber-500 md:border-2 md:border-amber-500'>
                 <div className='flex justify-center items-center lg:bg-yellow-500 md:bg-yellow-500 '>
-                    <h4 className='text-white'>TEKNOLOJİLER</h4>
+                    <h4 className='text-white'>TEKNİK YETENEKLER</h4>
                 </div>
             <div className='grid xl:grid-cols-3 p-5 lg:grid-cols-2 md:grid-cols-2'>
 

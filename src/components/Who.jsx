@@ -5,7 +5,7 @@ function Who() {
   return (
     <div className='grid grid-rows-2'>
         <div>
-            <img className='mx-auto border border-blue-600 rounded-full w-44' src={mucahitjpg} alt="" />
+            <img className='mx-auto rounded-full w-44' src={mucahitjpg} alt="" />
         </div>
         <div className='my-5 grid grid-rows-2 justify-center items-center'>
             <strong className='text-red-600 font-semibold animate-pulse px-2'>mücahit tekbaş</strong>

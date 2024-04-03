@@ -5,6 +5,7 @@ import Techs from '../components/Techs'
 import Socialaccount from '../components/Socialaccount'
 import Account from '../api/Account'
 import Cv from '../components/Cv'
+import Project from '../components/Project'
 function Index() {
     const [social,setSocial] = useState([])
 
@@ -37,6 +38,10 @@ function Index() {
         
         <div className='mt-20'>
          <Techs/>
+        </div>
+
+        <div className='mt-20'>
+            <Project />
         </div>
         
 

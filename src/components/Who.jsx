@@ -8,8 +8,8 @@ function Who() {
             <img className='mx-auto rounded-full w-44' src={mucahitjpg} alt="" />
         </div>
         <div className='my-5 grid grid-rows-2 justify-center items-center'>
-            <strong className='text-red-600 font-semibold animate-pulse px-2'>mücahit tekbaş</strong>
-            <b className='bg-yellow-500 text-white animate-bounce p-2 rounded-xl'>web developer</b>
+            <strong className='text-red-600 font-semibold  px-2'>MÜCAHİT TEKBAŞ</strong>
+            <b className='bg-yellow-400 transition-all text-white text-center animate-pulse p-2 rounded-xl'>web developer</b>
         </div>
     </div>
   )

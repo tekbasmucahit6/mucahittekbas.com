@@ -9,7 +9,7 @@ function Socialaccount({socialmedia,socialmediaımg,link,i,color}) {
                 {socialmediaımg}
             </div>
             <div>
-                <strong className='text-sm hover:text-red-800 transition-all text-white'><a href={link}>{socialmedia}</a></strong>
+                <strong className='text-sm hover:text-cyan-600 font-semibold font-serif transition-all text-white'><a href={link}>{socialmedia}</a></strong>
             </div>
         </div>
       </div>

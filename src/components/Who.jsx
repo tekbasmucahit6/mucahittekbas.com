@@ -3,13 +3,13 @@ import mucahitjpg from "../img/mucahittekbas.jpg"
 
 function Who() {
   return (
-    <div className='grid grid-rows-2'>
+    <div className='container mx-auto w-3/4 grid grid-rows-2 border bg-gradient-to-r from-indigo-950 to-gray-900 p-5 rounded-b-3xl'>
         <div>
             <img className='mx-auto rounded-full w-44' src={mucahitjpg} alt="" />
         </div>
         <div className='my-5 grid grid-rows-2 justify-center items-center'>
-            <strong className='text-red-600 font-semibold  px-2'>MÜCAHİT TEKBAŞ</strong>
-            <b className='bg-yellow-400 transition-all text-white text-center animate-pulse p-2 rounded-xl'>web developer</b>
+            <strong className='text-white font-semibold mx-auto'>MÜCAHİT TEKBAŞ</strong>
+            <i className='text-yellow-300 text-sm'>web developer - junior frontend developer  </i>
         </div>
     </div>
   )
